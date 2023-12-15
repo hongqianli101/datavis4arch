@@ -1,9 +1,9 @@
-# The Deliveristas: Food Delivery Workers on Ground Zero
+Data Visualization for Architecture, Urbanism and the Humanities
+ILLEGAL IMMIGRATION AND THE COST OF HUMAN LIVES
+By Mengyao Chen, Swezya Joshi, Hongqian Li
 
-Scrollytelling code based on William B. Davis' [Scrollydrive repository](https://github.com/willymaps/scrollydrive). The full walkthrough is linked [here](http://www.formerspatial.com/scrolly-drive).
+This data visualization project focuses on the issue of missing and deceased immigrants across the American continent. Initiated with a series of interviews with immigrants and reinforced with datasets from Missing Migrants Project by International Organization for Migration (IOM), our work aims to provide a clear and impactful representation of their journeys.
 
-Code for website is in the main folder. The js folder contains the drive.js script for the scrollytelling path.
+By visualizing the routes taken, the causes of death, and the locations where these tragedies occurred, we hope to offer a deeper understanding of the immigrants' experiences, bring to life the stories of those who embarked on these perilous journeys, and seek to elevate public awareness and stimulate discussion around this critical issue.
 
-The files for mapping Sergio Solano's bike path are in the [data](https://github.com/ilenapeng/nyc-delivery-cyclists/tree/main/data) folder. A GPX file exported from Strava was converted to a geojson using Mapbox's [toGeoJSON tool](https://mapbox.github.io/togeojson/). This geojson is labeled raw-path.geojson in the data folder. The points where Solano picked up food at were added to a Google MyMap and exported as a KML file, which was also then converted to a geojson, which is labeled points.geojson in the data folder. The raw-path and points geojson files were then combined in a text editor to create path.geojson.
-
-Project photos are in the [images](https://github.com/ilenapeng/nyc-delivery-cyclists/tree/main/images) folder. Charts, along with the Python (Altair) code used to create them, are in the [charts](https://github.com/ilenapeng/nyc-delivery-cyclists/tree/main/charts) folder.
+Our goal is to foster a sense of empathy and urgency, encouraging actions that address and mitigate these tragic losses.
