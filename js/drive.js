@@ -34,7 +34,7 @@ function createLine() {
     const line = turf.lineString(extentArray);
 
     // calculate the total length of the line
-    const lineDistance = turf.lineDistance(line);
+    const lineDistance = turf.length(line);
 
     // how many points you want along the path (more = smoother animation)
     const rects = driveTime;
@@ -76,7 +76,7 @@ function createLine() {
     }
     let secondExtentArray = secondRouteData.features[0].geometry.coordinates;
     const secondLine = turf.lineString(secondExtentArray);
-    const secondLineDistance = turf.lineDistance(secondLine);
+    const secondLineDistance = turf.length(secondLine);
     const secondSegments = secondLineDistance / rects;
 
     for(let i = 0; i <= rects; i++) {
